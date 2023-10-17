@@ -24,7 +24,7 @@ def load_model():
 
     #load weights into new model
     model.load_weights("model/model.h5")
-    print(model.summary())
+    
 
 def process_image(image):
     #read image
